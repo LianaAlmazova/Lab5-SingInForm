@@ -1,0 +1,60 @@
+.tooltip {
+    position: absolute;
+    display: inline-block;
+    visibility: hidden;
+    width: 220px;
+    /* height: 110px; */
+    align-items: center;
+    background: #2a235dad;
+    border-radius: 6px;
+    left: 102%;
+    bottom: 20%;
+}
+
+.tooltip .tooltip_row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    margin: 0;
+}
+
+.tooltip .icon_container {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin-top: 4px;
+}
+
+.tooltip .icon_container .icon {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+.tooltip .tooltiptext {
+    text-align: left;
+    margin: 12px 16px 1px 16px;
+    padding: 0;
+}
+
+.tooltip P {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 145%;
+    color: #FFFFFF;
+}
+
+.tooltipOn .tooltip {
+    visibility: visible;
+}
+
+.icon_tick,
+.icon_cross {
+    visibility: hidden;
+}
